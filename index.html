@@ -109,13 +109,13 @@
             <div class="col">
                 <div align="center" class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <form action="tangkap.php" method="post">
-                            <label for="namaPengguna">Nama pengguna</label>
-                            <input type="text" name="namaPengguna" id="nama">
-                            <button type="submit">kirim</button>
+                        <h2>Silakan masukkan nama Anda:</h2>
+                        <form action="process.php" method="post">
+                            <label for="nama">Nama:</label>
+                            <input type="text" id="nama" name="nama" required>
+                            <br>
+                            <input type="submit" value="Kirim">
                         </form>
-                        <a href="tangkap.php" class="card-link"><button class="btn btn-primary">ke file
-                                sebelah</button></a>
                     </div>
                 </div>
             </div>
