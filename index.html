@@ -1,186 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <link rel="icon" href="asset/5.png" type="image/x-icon">
+  <link rel="stylesheet" href="styless.css">
+  <title>Login</title>
 </head>
 
 <body>
-    <section class="container" align="center">
-        <h2> TENTANG COLSPAN DAN ROWSPAN</h2>
-
-        <table class="table table-bordered border-primary" align="center">
-            <tr>
-                <th colspan="4" align="center">Tabel using colspan and rowspan</th>
-            </tr>
-            <tr>
-                <th colspan="4" align="center">khanel self store</th>
-            </tr>
-            <tr>
-                <th>item</th>
-                <th>Quality</th>
-                <th>price</th>
-                <th>total</th>
-            </tr>
-            <tr>
-                <td>gula</td>
-                <td rowspan="3" align="center">5 kg</td>
-                <td>50</td>
-                <td>250</td>
-            </tr>
-            <tr>
-                <td>minyak goreng</td>
-                <td>200</td>
-                <td>400</td>
-            </tr>
-            <tr>
-                <td>sabun</td>
-                <td>40</td>
-                <td>160</td>
-            </tr>
-            <tr>
-                <td colspan="3" align="center">SUB TOTAL</td>
-                <td>180</td>
-            </tr>
-            <tr>
-                <td>tax</td>
-                <td>50%</td>
-                <td>41</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <th colspan="3" align="center">keseluruhan</th>
-                <th>NTAHHH GATAU</th>
-            </tr>
-
-        </table>
-
-    </section>
-
-    <!-- section untuk table ke dua -->
-
-    <section>
-        <table class="table table-bordered border-primary">
-            <tr>
-                <th rowspan="2"> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th colspan="2"> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th rowspan="3"> cuma percobaan</th>
-                <th> cuma percobaan</th>
-            </tr>
-            <tr>
-                <th colspan="2"> cuma percobaan</th>
-                <th rowspan="2"> cuma percobaan</th>
-                <th colspan="2"> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th> cuma percobaan</th>
-            </tr>
-            <tr>
-                <th> cuma percobaan 2</th>
-                <th> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th> cuma percobaan</th>
-                <th> cuma percobaan</th>
-            </tr>
-
-        </table>
-    </section>
-    <br>
-    <br>
-    <br>
-
-    <!-- penggunaan form dan mengirim hasil dari input an untuk di tampilkan di page lain -->
-
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-                <!-- Column -->
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5>Silakan masukkan nama Anda:</h5>
-                        <form action="process.php" method="post">
-                            <label for="nama">Nama:</label>
-                            <input type="text" id="nama" name="nama" required>
-                            <br>
-                            <input type="submit" value="Kirim">
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-
-            </div>
+  <section>
+    <div class="container-img">
+      <div class="logo">
+        <img style="width: 100px; height: 50px; margin-left: 20px;" src="asset/2.png" alt="">
+      </div>
+      <div class="gambar">
+        <img src="asset/komputer.png" alt="gambar nggak keluar">
+        <div class="tittle">
+          <p><strong>
+              Solusi Tepat Kemudahan Sistem dan Manajemen Sekolah
+            </strong></p>
         </div>
+      </div>
     </div>
+    <div class="login-container">
+      <form class="login-form">
+        <h2>Login!</h2>
+        <input type="text" placeholder="Masukkan username">
 
-    <!-- pembelajaran tentang sibling selector -->
-    <!-- adalah styling yang di lakukan setelah suatu content yang di tetapkan, dan di tandai dengan (~) -->
-    <p>
-        Ini merupakan paragraf pertama. Rule styling tidak akan diterapkan pada
-        elemen paragraf ini.
-    </p>
-    <img src="https://i.imgur.com/cs2BJzw.jpg" alt="Dicoding logo" width="400px" />
-    <p>
-        Ini merupakan paragraf kedua dan ditetapkan setelah elemen gambar. Maka
-        paragraf ini menerapkan rule dengan menampilkan teks berwarna hijau.
-    </p>
-    <!-- tidak terseleksi karena di bungkus div -->
-    <div>
-        <p>
-            Ini merupakan paragraf ketiga, letaknya setelah elemen gambar, tetapi
-            paragraf ini dibungkus di dalam div sehingga paragraf ini tidak akan
-            menerapkan rule styling karena tidak memiliki induk yang sama.
-        </p>
+        <input type="password" placeholder="Masukkan password">
+
+        <input type="password" placeholder="Masukkan password">
+
+        <a href="page/selasa_8_agustus/halaman1.html"><button type="button">Login</button></a>
+      </form>
     </div>
-    <p>
-        Ini merupakan paragraf empat. Letaknya memang setelah elemen gambar dan
-        memiliki induk yang sama seperti elemen gambar, sehingga elemen ini akan
-        menerapkan rule dengan menampilkan teks berwarna hijau.
-    </p>
-
-
-    <ul>
-        <ul>
-            <li><a href="#internal">Internal link</a></li>
-            <li><a href="http://example.com">Example link</a></li>
-            <li><a href="#InSensitive">Insensitive internal link</a></li>
-            <li><a href="http://example.org">Example org link</a></li>
-        </ul>
-    </ul>
-    <li></li>
-
-    <ul>
-        <li>
-        <li></li>
-        <li></li>
-        <li></li>
-        </li>
-    </ul>
-
-    <h1>Judul</h1>
-    <p>Paragraf 1</p>
-    <p>Paragraf 2</p>
-    <h1>Judul 2</h1>
-    <p>Paragraf 3</p>
-
-
-</body>
-
-</html>
-
+  </section>
 </body>
 
 </html>
