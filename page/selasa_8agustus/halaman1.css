@@ -215,16 +215,12 @@ section{
 
 #sect{
   width: 90%; 
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  border: 2px solid black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 .container-gambar{
-  width: 40%;
-  margin: 30px auto;
+  width: 90%;
+  height: 60px;
+  margin: 10px auto;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
@@ -235,11 +231,16 @@ section{
 .right_bar{
   float: right;
   width: 20%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   margin-right: 48px ;
   height: 100vh;
   box-sizing: border-box; 
 }
+
 @media screen and (max-width:1316px){
   .right_bar{
     display: none;
